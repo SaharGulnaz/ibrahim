@@ -1,5 +1,5 @@
 fn main () {
-  let s=String::from("sahar");
+  let s2=String::from("sahar");
  let s3= give_ownership(s);
 println!("{}",s);
 }
