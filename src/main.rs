@@ -1,10 +1,18 @@
-fn main () {
-  let s2=String::from("sahar");
- let s3= give_ownership(s);
-println!("{}",s);
+#[derive(Debug)]
+struct book{
+  Name : string,
+  Author : string,
+  price :u16,
+  availability : bool,
 }
- 
-  fn give_ownership(x:String)->String{
-    x
 
+
+  fn main(){
+    let book_1=book{
+      name:string::from("book A"),
+      Author:string::from("Author A"),
+      price:500,
+      avaiability:true
+    };
   }
+  
